@@ -5,8 +5,8 @@ void funcRec(int x, int y) {
 	if (x == y) {
 		printf("%i ", x);
 	} else {
-		printf("%i ", x);
 		funcRec(x-1, y);
+		printf("%i ", x);
 	}
 }
 
